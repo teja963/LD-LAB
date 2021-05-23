@@ -1,0 +1,37 @@
+# Reading C:/Modeltech_pe_edu_10.4a/tcl/vsim/pref.tcl
+vlog -reportprogress 300 -work work C:/Modeltech_pe_edu_10.4a/examples/PANASA_B191143CS_Q01.v C:/Modeltech_pe_edu_10.4a/examples/PANASA_B191143CS_TB_Q01.v
+# Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+# Start time: 21:08:48 on Nov 29,2020
+# vlog -reportprogress 300 -work work C:/Modeltech_pe_edu_10.4a/examples/PANASA_B191143CS_Q01.v C:/Modeltech_pe_edu_10.4a/examples/PANASA_B191143CS_TB_Q01.v 
+# -- Compiling module aas4_1
+# -- Compiling module stimulus_1
+# 
+# Top level modules:
+# 	stimulus_1
+# End time: 21:08:48 on Nov 29,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim -gui work.stimulus_1
+# //  ModelSim PE Student Edition 10.4a Apr  7 2015 
+# //
+# //  Copyright 1991-2015 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //  THIS DOCUMENT CONTAINS TRADE SECRETS AND COMMERCIAL OR FINANCIAL
+# //  INFORMATION THAT ARE PRIVILEGED, CONFIDENTIAL, AND EXEMPT FROM
+# //  DISCLOSURE UNDER THE FREEDOM OF INFORMATION ACT, 5 U.S.C. SECTION 552.
+# //  FURTHERMORE, THIS INFORMATION IS PROHIBITED FROM DISCLOSURE UNDER
+# //  THE TRADE SECRETS ACT, 18 U.S.C. SECTION 1905.
+# //
+# // NOT FOR CORPORATE OR PRODUCTION USE.
+# // THE ModelSim PE Student Edition IS NOT A SUPPORTED PRODUCT.
+# // FOR HIGHER EDUCATION PURPOSES ONLY
+# //
+# vsim -gui 
+# Start time: 21:09:02 on Nov 29,2020
+# Loading work.stimulus_1
+# Loading work.aas4_1
+add wave sim:/stimulus_1/*
+run

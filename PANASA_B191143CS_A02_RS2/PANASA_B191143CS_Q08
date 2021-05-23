@@ -1,0 +1,54 @@
+# Reading C:/Modeltech_pe_edu_10.4a/tcl/vsim/pref.tcl
+# Loading project teja
+# Compile of PANASA_B191143CS_Q08.v was successful.
+# Compile of PANASA_B191143CS_TB_Q08.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -gui work.alustimulus
+# //  ModelSim PE Student Edition 10.4a Apr  7 2015 
+# //
+# //  Copyright 1991-2015 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //  THIS DOCUMENT CONTAINS TRADE SECRETS AND COMMERCIAL OR FINANCIAL
+# //  INFORMATION THAT ARE PRIVILEGED, CONFIDENTIAL, AND EXEMPT FROM
+# //  DISCLOSURE UNDER THE FREEDOM OF INFORMATION ACT, 5 U.S.C. SECTION 552.
+# //  FURTHERMORE, THIS INFORMATION IS PROHIBITED FROM DISCLOSURE UNDER
+# //  THE TRADE SECRETS ACT, 18 U.S.C. SECTION 1905.
+# //
+# // NOT FOR CORPORATE OR PRODUCTION USE.
+# // THE ModelSim PE Student Edition IS NOT A SUPPORTED PRODUCT.
+# // FOR HIGHER EDUCATION PURPOSES ONLY
+# //
+# vsim -gui 
+# Start time: 22:37:28 on Oct 26,2020
+# Loading work.alustimulus
+# Loading work.alu_design
+# Loading work.not_gate
+# Loading work.not_gate_16
+# Loading work.mux_16
+# Loading work.adder_16bit
+# Loading work.full_adder
+# Loading work.half_adder
+# Loading work.and_gate
+# Loading work.xor_gate
+# Loading work.or_gate
+# Loading work.and_gate_16
+# Loading work.or_gate_in16
+# Loading work.mux_2x1
+# ** Warning: (vsim-3015) C:/Modeltech_pe_edu_10.4a/examples/PANASA_B191143CS_TB_Q08.v(163): [PCDPC] - Port size (1) does not match connection size (32) for port 'cin'. The port definition is at: C:/Modeltech_pe_edu_10.4a/examples/PANASA_B191143CS_TB_Q08.v(144).
+#    Time: 0 ns  Iteration: 0  Instance: /alustimulus/alustimulus_1/adder_16bit_1/full_adder_1 File: C:/Modeltech_pe_edu_10.4a/examples/PANASA_B191143CS_TB_Q08.v
+add wave sim:/alustimulus/*
+run
+# o=xxxxxxxxxxxxxxxx,zr=x,ng=x,x=xxxxxxxxxxxxxxxx,y=xxxxxxxxxxxxxxxx,s=xxxxxx
+# o=0000000000000000,zr=1,ng=0,x=0000000000000000,y=0000000000000000,s=000000
+# o=0000000000000000,zr=1,ng=0,x=0000000000000000,y=0000000000000000,s=100000
+# o=0000000000000000,zr=1,ng=0,x=0000000000000000,y=0000000000000000,s=010000
+# o=0000000000000000,zr=1,ng=0,x=0000000000000000,y=0000000000000000,s=110000
+# o=0000000000000000,zr=1,ng=0,x=0000000000000000,y=0000000000000000,s=001000
+# o=0000000000000000,zr=1,ng=0,x=0000000000000000,y=0000000000000000,s=101000
+# o=0000000000000000,zr=1,ng=0,x=0000000000000000,y=0000000000000000,s=011000
+# o=0000000000000000,zr=1,ng=0,x=0000000000000000,y=0000000000000000,s=111000
+# o=0000000000000000,zr=1,ng=0,x=0000000000000000,y=0000000000000000,s=000100

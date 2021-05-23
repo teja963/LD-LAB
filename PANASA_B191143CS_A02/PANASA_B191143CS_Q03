@@ -1,0 +1,43 @@
+# Reading C:/Modeltech_pe_edu_10.4a/tcl/vsim/pref.tcl
+# Loading project teja
+# Compile of PANASA_B191143CS_Q03.v was successful.
+# Compile of PANASA_B191143CS_TB_Q03.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -gui work.four_bit_stimulus
+# //  ModelSim PE Student Edition 10.4a Apr  7 2015 
+# //
+# //  Copyright 1991-2015 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //  THIS DOCUMENT CONTAINS TRADE SECRETS AND COMMERCIAL OR FINANCIAL
+# //  INFORMATION THAT ARE PRIVILEGED, CONFIDENTIAL, AND EXEMPT FROM
+# //  DISCLOSURE UNDER THE FREEDOM OF INFORMATION ACT, 5 U.S.C. SECTION 552.
+# //  FURTHERMORE, THIS INFORMATION IS PROHIBITED FROM DISCLOSURE UNDER
+# //  THE TRADE SECRETS ACT, 18 U.S.C. SECTION 1905.
+# //
+# // NOT FOR CORPORATE OR PRODUCTION USE.
+# // THE ModelSim PE Student Edition IS NOT A SUPPORTED PRODUCT.
+# // FOR HIGHER EDUCATION PURPOSES ONLY
+# //
+# vsim -gui 
+# Start time: 21:53:22 on Oct 26,2020
+# Loading work.four_bit_stimulus
+# Loading work.four_bit_incremenator
+# Loading work.halfadder
+# Loading work.and_gate
+# Loading work.xor_gate
+add wave sim:/four_bit_stimulus/*
+run
+# s=xxxx c=x a=xxxx b=xxxx
+# s=0001 c=0 a=0000 b=0000
+# s=0001 c=0 a=0000 b=0001
+# s=0001 c=0 a=0000 b=0010
+# s=0001 c=0 a=0000 b=0011
+# s=0001 c=0 a=0000 b=0100
+# s=0001 c=0 a=0000 b=0101
+# s=0001 c=0 a=0000 b=0110
+# s=0001 c=0 a=0000 b=0111
+# s=0001 c=0 a=0000 b=1000
